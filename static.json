@@ -1,3 +1,5 @@
 {
-  "root" : "dist/"
+  "root" : "dist/",
+  "index" : "index.html",
+  "clean_urls" : false
 }
