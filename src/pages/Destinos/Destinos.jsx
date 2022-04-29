@@ -1,7 +1,7 @@
 import Machupicchu from "../../assets/machupicchu.jpg";
 import cañonColca from "../../assets/cañonColca.jpg";
 import manu from "../../assets/manu.jpg";
-import Tambopata from "../../assets/Tambopata.jpg";
+import Tambopata from "../../assets/tambopata.jpg";
 import "./Destinos.css";
 const dataHelper = [
   {
