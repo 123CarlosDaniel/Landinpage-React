@@ -1,7 +1,7 @@
 import {useState,useEffect} from 'react'
 import Uyuni from "../../assets/uyuni.jpg";
 import manu from "../../assets/manu.jpg";
-import Tambopata from "../../assets/tambopata.jpg";
+// import Tambopata from "../../assets/tambopata.jpg";
 import machupicchu from "../../assets/machupicchu.jpg";
 import CardSwiper from '../Descubre/CardSwiper';
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -23,12 +23,12 @@ const dataHelper = [
     location: "Madre de Dios",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   },
-  {
-    image: Tambopata,
-    title: "Tambopata",
-    location: "Amazonas",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-  },
+  // {
+  //   image: Tambopata,
+  //   title: "Tambopata",
+  //   location: "Amazonas",
+  //   description: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  // },
   {
     image: machupicchu,
     title: "Machu Picchu",

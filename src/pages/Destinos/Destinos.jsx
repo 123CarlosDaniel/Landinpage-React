@@ -1,6 +1,7 @@
 import Machupicchu from "../../assets/machupicchu.jpg";
 import cañonColca from "../../assets/cañonColca.jpg";
 import manu from "../../assets/manu.jpg";
+// import tambopata from "../../assets/tambopata.jpg";
 import "./Destinos.css";
 const dataHelper = [
   {
@@ -15,12 +16,12 @@ const dataHelper = [
       "El Cañón del Colca llega a una profundidad de 4.160m y toda la zona es de alta belleza paisajística. Además, en el Valle del Colca verás llamas, alpacas, vicuñas y el cóndor de los Andes.",
     img: cañonColca,
   },
-  {
-    title: "Tambopata",
-    description:
-      "La Reserva Nacional Tambopata es 274,690 hectáreas (1,061 millas cuadradas) de tierra preservada en el sureste de Perú. La reserva tiene muchos hábitats diversos, incluidas las tierras bajas de la selva amazónica, los bosques ribereños y los lagos herradura.",
-    img: manu,
-  },
+  // {
+  //   title: "Tambopata",
+  //   description:
+  //     "La Reserva Nacional Tambopata es 274,690 hectáreas (1,061 millas cuadradas) de tierra preservada en el sureste de Perú. La reserva tiene muchos hábitats diversos, incluidas las tierras bajas de la selva amazónica, los bosques ribereños y los lagos herradura.",
+  //   img: tambopata,
+  // },
   {
     title: "Manu",
     description:

@@ -4,7 +4,7 @@ import { Pagination } from "swiper";
 import CardSwiper from "./CardSwiper";
 import Uyuni from "../../assets/uyuni.jpg";
 import manu from "../../assets/manu.jpg";
-import Tambopata from "../../assets/tambopata.jpg";
+// import Tambopata from "../../assets/tambopata.jpg";
 import machupicchu from "../../assets/machupicchu.jpg";
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -24,12 +24,12 @@ const dataHelper = [
     location: "Madre de Dios",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
   },
-  {
-    image: Tambopata,
-    title: "Tambopata",
-    location: "Amazonas",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
-  },
+  // {
+  //   image: Tambopata,
+  //   title: "Tambopata",
+  //   location: "Amazonas",
+  //   description: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+  // },
   {
     image: machupicchu,
     title: "Machu Picchu",
