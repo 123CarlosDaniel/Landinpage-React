@@ -1,0 +1,27 @@
+.informacion__container {
+  background-color: black;
+  color: white;
+}
+
+.informacion__container h2 {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.informacion {
+  margin-top: 2rem;
+  padding: 0 4rem;
+}
+
+.informacion p {
+  margin-bottom:1rem ;
+}
+
+@media screen and (max-width: 768px) {
+  .informacion {
+    padding: 0 2rem;
+  }
+  .informacion__container {
+    padding-top: 6rem;
+  }
+}

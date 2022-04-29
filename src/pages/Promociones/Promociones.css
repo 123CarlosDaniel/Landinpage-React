@@ -1,0 +1,24 @@
+.head {
+  background-image: url('../../assets/cordilleraHuayhuash.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  color : white;
+}
+
+.head__description {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.btn-ofertas:hover {
+  background-color: white;
+  color: var(--color-dark);
+  backdrop-filter: blur(12px);
+}
+
+.promociones {
+  margin-bottom: 4rem;
+}

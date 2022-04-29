@@ -1,0 +1,96 @@
+.swiper-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  
+  color: var(--color-primary);
+}
+.descubre {
+  padding-inline: 3rem;
+  margin-bottom: 4rem;
+
+}
+
+.description {
+  width: 25%;
+  padding-top: 3rem;
+}
+
+.location {
+  margin-right: 0.25rem;
+}
+
+.description h3 {
+  margin-bottom: 2rem;
+}
+
+.swiper__container {
+  padding-left:4rem ;
+  width: 75%;
+  overflow: visible;
+}
+
+.swiper {
+  height: 120%;
+  padding: 1rem ;
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--color-primary);
+}
+/* CardSwiper */
+.card__container {
+  width: 20rem;
+  height: 25rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2) ;
+  margin: 0 auto;
+}
+.card__image {
+  height: 18rem;
+}
+
+.card__description{
+  padding: 1rem;
+}
+.card__description p {
+  font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-container {
+    flex-direction: column;
+  } 
+  .description {
+    width: 100%;
+    padding-top: 0;
+    text-align: center;
+  }
+  .description h3 {
+    margin-bottom: 0;
+  }
+  .descubre {
+    padding-inline: 1rem;
+  }
+  .descubre h5 {
+    margin-bottom: 2rem;
+  }
+  .swiper {
+    padding: 0;
+  }
+
+  .card__container {
+    width: 100%;
+    height: 450px;
+    margin: 2rem auto 0;
+  }
+
+  .swiper__container {
+    width: 100%;
+    padding: 0;
+  }
+  
+}
+
+

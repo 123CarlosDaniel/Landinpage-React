@@ -1,0 +1,63 @@
+.footer {
+  background-color: var(--color-primary);
+  padding: 2rem 4rem;
+  color: var(--color-light);
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo_container {
+  height: 6rem;
+  width: auto; 
+}
+
+.logo_Peru{
+  filter: brightness(0) invert(1);
+}
+.socials {
+  display: flex;
+  gap: 1rem;
+  letter-spacing: 1px;
+}
+
+.logos_social{
+  width: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logos_social svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.twitter-logo {
+  transform: scale(1.2);
+}
+
+.youtube-logo {
+  transform: scale(1.2);
+}
+
+.footer-info {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .logos_social svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .logos {
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+  .footer {
+    padding-inline: 0;
+  }
+}

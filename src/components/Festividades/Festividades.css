@@ -1,0 +1,19 @@
+
+
+
+.container-festivo {
+  width: 90%;
+  margin: 0 auto ;
+  padding: 0 ;
+  padding-bottom: 3rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .container-festivo {
+    width: 100%;
+  }
+  .descubre {
+    margin-bottom: 0;
+  }
+}

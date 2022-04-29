@@ -1,0 +1,59 @@
+.destino__section {
+  background-color: #040224f6;
+}
+
+.destino__section h2 {
+  color: white;
+}
+
+.destino__container {
+  margin-top: 3rem;
+}
+
+.destino__card {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  background-color: #f2f2f2;
+  overflow: hidden;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+.card-text {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1rem 1rem 0 1rem;
+}
+.card-text button {
+  margin-top: 0.5rem;
+}
+.card-text h4,p {
+  letter-spacing: 1px;
+}
+
+.card-text h4 {
+  font-size: 1.5rem;
+}
+
+.card-img {
+  display: flex;
+  width: 50rem;
+}
+
+@media screen and (max-width: 768px) {
+  .destino__card {
+    width: 90%;
+  }
+  .destino__section {
+    padding-top: 6rem;
+  }
+  .destino__card{
+    flex-direction: column;
+  }
+  .card-img {
+    width: 100%;
+  }
+}
+  
