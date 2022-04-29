@@ -1,7 +1,7 @@
 import Machupicchu from "../../assets/machupicchu.jpg";
 import cañonColca from "../../assets/cañonColca.jpg";
 import manu from "../../assets/manu.jpg";
-import Tambopata from "../../assets/tambopata.jpg";
+import tambopata from "../../assets/tambopata.jpg";
 import "./Destinos.css";
 const dataHelper = [
   {
@@ -20,7 +20,7 @@ const dataHelper = [
     title: "Tambopata",
     description:
       "La Reserva Nacional Tambopata es 274,690 hectáreas (1,061 millas cuadradas) de tierra preservada en el sureste de Perú. La reserva tiene muchos hábitats diversos, incluidas las tierras bajas de la selva amazónica, los bosques ribereños y los lagos herradura.",
-    img: Tambopata,
+    img: tambopata,
   },
   {
     title: "Manu",
