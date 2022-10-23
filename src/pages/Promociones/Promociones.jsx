@@ -8,7 +8,7 @@ const Promociones = () => {
         <div className="header">
           <div className="header__contain">
             <h2>Tenemos buenos paquetes para ti viajero</h2>
-            <a href="#promociones" className="btn btn-mas btn-ofertas">
+            <a href="#/info" className="btn btn-mas btn-ofertas">
               Ver ofertas
             </a>
           </div>
